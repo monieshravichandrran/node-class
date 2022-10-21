@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>EJS Tutorial</title>
+    </head>
+    <body>
+        <% if(loggedIn){ %>
+        <h3>Logged In Username : 
+            <%= username %>
+        </h3>
+        <% }else{ %>
+        <h3>User is not logged in</h3>
+        <% } %>
+        <ul>
+            <% for(let i=0;i<4;i++){ %>
+                <li><%= list[i] %></li>
+            <% } %>
+        </ul>
+    </body>
+</html>

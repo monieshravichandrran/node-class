@@ -1,0 +1,24 @@
+Why Node?
+MERN MEAN
+
+Modules
+
+- User created
+- Npm - Node package manager
+
+module.export = {}
+
+const module_name = require("module.name");
+
+NPM packages
+
+HTTP 
+OS
+PATH
+FS 
+Express 
+
+Modules
+- Prime(x) : true - prime
+- Composite(x) : true - composite
+- Palindromic(x) : true - palidndrome
