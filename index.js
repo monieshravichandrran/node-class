@@ -4,10 +4,6 @@ const EventEmitter = require('events');
 
 const ev = new EventEmitter();
 
-ev.on('bye',()=>{
-    console.log("Hello is called");
-});
-ev.emit('bye');
 
 class User extends EventEmitter{
 
